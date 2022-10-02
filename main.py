@@ -3,7 +3,7 @@ import time
 
 bot = telebot.TeleBot('5193435427:AAEZB6s2JsMFKBZ2CWuCrnvcM5BY-WWupZ4')
 CHANNEL_NAME = '@neodigitalmarketing'
-f = open('app/jokes.txt', 'r', encoding='UTF-8')
+f = open('app/bot/jokes.txt', 'r', encoding='UTF-8')
 jokes = f.read().split('\n')
 f.close()
 
